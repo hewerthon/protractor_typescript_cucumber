@@ -1,0 +1,108 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "I am going to validate my website functionalites",
+    "line": 1,
+    "id": "i-am-going-to-validate-my-website-functionalites",
+    "tags": [],
+    "uri": "features/demo.tags.feature",
+    "elements": [
+      {
+        "id": "i-am-going-to-validate-my-website-functionalites;calculator-add-functionality-testing",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Calculator Add functionality testing",
+        "tags": [
+          {
+            "name": "@regressivetest",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "TestCases/hooks.ts:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "TestCases/hooks.ts:9"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I will navigate to Calc Site",
+            "match": {
+              "location": "TestCases/demo.step.ts:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 601000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I add two number \"3\" and \"5\"",
+            "match": {
+              "location": "TestCases/demo.step.ts:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 143000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "The output displayed should be \"8\"",
+            "match": {
+              "location": "TestCases/demo.step.ts:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2054000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "TestCases/hooks.ts:14"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -10,10 +10,10 @@ export let config: Config = {
 		directConnect:true,
 		framework: 'custom',
 		frameworkPath: require.resolve('protractor-cucumber-framework'),
-		specs: ['../../features/demo.feature'],
+		specs: ['../../features/demo_outline.feature'],
 		cucumberOpts: {
 			require: [
-				'../TestCases/timeout.js', '../TestCases/demo.step.js'
+				'../TestCases/timeout.js', '../TestCases/demo.outline.js'
 			]
 		},
 		/*

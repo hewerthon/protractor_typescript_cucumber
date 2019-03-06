@@ -7,6 +7,9 @@
 
     "test": "protractor JSFiles/Configs/configuration.js",
     "cucumbertest": "protractor JSFiles/Configs/configurationCucumber.js",    
+    "cucumber_repet_test": "protractor JSFiles/Configs/configurationCucumberRepet.js",    
+    "cucumber_outline_test": "protractor JSFiles/Configs/configurationCucumberOutline.js",
+    "cucumber_tags_test": "protractor JSFiles/Configs/configurationCucumberTags.js", 
     "pretest": "tsc",
     "protractor":"./node_modules/protractor/built/cli.js",
     "webdriver-update":"./node_modules/.bin/webdriver-manager update"
@@ -23,7 +26,10 @@
     "@types/node": "10.12.18",
     "protractor-cucumber-framework":"^6.1.1",
     "cucumber":"^5.1.0",
-    "@types/cucumber":"^4.0.4"
+    "@types/cucumber":"^4.0.4",
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "cucumber-html-reporter": "^4.0.5"
   }
   
 }
